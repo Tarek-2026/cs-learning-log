@@ -19,28 +19,24 @@ Implements a greedy algorithm to calculate the minimum number of U.S. coins (1¢
 ### 5. `05-credit.c`
 Validates credit card numbers using **Luhn's Algorithm** and determines the card type (Visa, MasterCard, American Express) based on number structure.
 
-### 6. `06-Scrabble Word Scorer 
+### 6. 06-Scrabble Word Scorer 
 
-A C program that calculates the Scrabble score for two words and declares a winner.
 
-## How It Works
-- Uses an array (`points[]`) to map each letter (a-z) to its Scrabble point value.
-- Case-insensitive (converts input to lowercase).
-- Ignores non-alphabetic characters.
+A simple C program that simulates a 2-player Scrabble-style word scoring game.  
+Each letter has a point value. The player with the higher total score wins.
 
-## Example
-```sh
-player 1: "Code"
-player 2: "Scrabble"
-Result: "player 2 wins!" (Code=7, Scrabble=14)
+## What I Learned
+- Using functions and arrays
+- Handling strings in C
+- Input/output basics
+- `ctype.h` usage (`tolower`, `isalpha`)
+- Basic scoring logic
 
----
-
-## 🧰 Tools Used
-
-- GCC for compilation  
-- `stdio.h`, `string.h` (standard libraries)  
-- Visual Studio Code
+## How to Run
+Compile and run with:
+```bash
+gcc scrabble.c -o scrabble
+./scrabble
 
 ## 🗓️ Started: July 2025
 
