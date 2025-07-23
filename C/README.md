@@ -19,6 +19,21 @@ Implements a greedy algorithm to calculate the minimum number of U.S. coins (1¢
 ### 5. `05-credit.c`
 Validates credit card numbers using **Luhn's Algorithm** and determines the card type (Visa, MasterCard, American Express) based on number structure.
 
+### 6. `06-Scrabble Word Scorer 
+
+A C program that calculates the Scrabble score for two words and declares a winner.
+
+## How It Works
+- Uses an array (`points[]`) to map each letter (a-z) to its Scrabble point value.
+- Case-insensitive (converts input to lowercase).
+- Ignores non-alphabetic characters.
+
+## Example
+```sh
+player 1: "Code"
+player 2: "Scrabble"
+Result: "player 2 wins!" (Code=7, Scrabble=14)
+
 ---
 
 ## 🧰 Tools Used
