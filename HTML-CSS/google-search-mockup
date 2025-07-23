@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>google</title>
+
+
+    </head>
+    <body>
+        <img src="download.png"></image>
+
+        <input type="text">  
+        <a href="https://www.google.com/"> <button>google search</button></a>
+        <button>I am feeling lucky!</button>
+
+        <p>how search work<a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">learn more here</a></p>
+        <p>Most visited sites</p>
+        <ol>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+            <li><a href="https://www.edx.org/"> edX</a></li>
+            <li><a href="https://www.microworkers.com/">Micro workers</a> </li>
+            <li><a href="https://www.reddit.com/">Reddit</a></li>
+        </ol>
+    </body>
+ </html>
