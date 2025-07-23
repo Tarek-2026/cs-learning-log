@@ -7,7 +7,8 @@
 
     </head>
     <body>
-        <img src="download.png"></image>
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google logo">
+
 
         <input type="text">  
         <a href="https://www.google.com/"> <button>google search</button></a>
