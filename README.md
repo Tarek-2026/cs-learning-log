@@ -29,8 +29,7 @@ I'm starting my journey with C programming and frontend development (HTML, CSS, 
 | Folder         | Description                                             |
 |----------------|---------------------------------------------------------|
 | `C/`           | C language practice programs and exercises              |
-|----------------|---------------------------------------------------------|
-|   `HTML-CSS/`  |  HTML and CSS languages practice programs and exercises |
+| `HTML-CSS/`    |  HTML and CSS languages practice programs and exercises |
 
 
 ## 🛠 Tools I'm Using
