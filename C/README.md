@@ -4,19 +4,19 @@ This folder contains beginner-level programs written in C as part of my CS learn
 
 ## 🔹 Programs
 
-### 1. `01-guessing-game.c`
+### 1. 01-guessing-game.c
 A simple game where the user has 3 attempts to guess a predefined secret number.
 
-### 2. `02-meaw-function.c`
-Asks the user how many times to print "meaw" using a custom function and `do-while` loop validation.
+### 2. 02-meaw-function.c
+Asks the user how many times to print "meaw" using a custom function and do-while loop validation.
 
-### 3. `03-basic-calculator.c`
+### 3. 03-basic-calculator.c
 A basic calculator that performs addition, subtraction, multiplication, and division. It validates division by zero and invalid operators.
 
-### 4. `04-coin-change.c`
+### 4. 04-coin-change.c
 Implements a greedy algorithm to calculate the minimum number of U.S. coins (1¢, 5¢, 10¢, 25¢) needed to make change.
 
-### 5. `05-credit.c`
+### 5. 05-credit.c
 Validates credit card numbers using **Luhn's Algorithm** and determines the card type (Visa, MasterCard, American Express) based on number structure.
 
 ### 6. 06-Scrabble Word Scorer 
@@ -29,16 +29,18 @@ Each letter has a point value. The player with the higher total score wins.
 - Using functions and arrays
 - Handling strings in C
 - Input/output basics
-- `ctype.h` usage (`tolower`, `isalpha`)
+- ctype.h usage (tolower, isalpha)
 - Basic scoring logic
 
 ## How to Run
 Compile and run with:
-```bash
+bash
 gcc scrabble.c -o scrabble
 ./scrabble
 
-### 7. `07-Text Readability Analyzer (Coleman-Liau Index)
+
+
+### 7. 07-# 📚 Text Readability Analyzer (Coleman-Liau Index)
 
 This C program analyzes a block of text and determines its U.S. grade level using the **Coleman-Liau Readability Index**. It's a classic problem that helps you practice string manipulation, logic, and functions in C.
 
@@ -66,6 +68,12 @@ Text: Congratulations! Today is your day. You're off to Great Places! You're off
 5.470588
 2.352941
 grade 3
+
+
+
+
+
+
 
 
 ## 🗓️ Started: July 2025
