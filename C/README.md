@@ -40,7 +40,7 @@ gcc scrabble.c -o scrabble
 
 
 
-### 7. 07-# 📚 Text Readability Analyzer (Coleman-Liau Index)
+### 7. 07-Text Readability Analyzer (Coleman-Liau Index)
 
 This C program analyzes a block of text and determines its U.S. grade level using the **Coleman-Liau Readability Index**. It's a classic problem that helps you practice string manipulation, logic, and functions in C.
 
@@ -58,16 +58,7 @@ This C program analyzes a block of text and determines its U.S. grade level usin
   - `before grade one`
   - `grade 16+`
 
----
 
-## 📘 Sample Usage
-
-```bash
-$ ./readability
-Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
-5.470588
-2.352941
-grade 3
 
 
 
