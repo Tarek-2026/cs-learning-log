@@ -38,6 +38,36 @@ Compile and run with:
 gcc scrabble.c -o scrabble
 ./scrabble
 
+### 7. `07-Text Readability Analyzer (Coleman-Liau Index)
+
+This C program analyzes a block of text and determines its U.S. grade level using the **Coleman-Liau Readability Index**. It's a classic problem that helps you practice string manipulation, logic, and functions in C.
+
+---
+
+## 🚀 Features
+
+- Counts the number of **letters**, **words**, and **sentences** in a user-inputted text.
+- Calculates:
+  - **L** = average letters per 100 words
+  - **S** = average sentences per 100 words
+- Applies the Coleman-Liau formula to estimate the reading grade level.
+- Outputs results such as:
+  - `grade 5`
+  - `before grade one`
+  - `grade 16+`
+
+---
+
+## 📘 Sample Usage
+
+```bash
+$ ./readability
+Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
+5.470588
+2.352941
+grade 3
+
+
 ## 🗓️ Started: July 2025
 
 These programs reflect my step-by-step learning of core C concepts. More to come as I progress through CS50 and beyond!
