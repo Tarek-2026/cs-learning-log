@@ -59,8 +59,28 @@ This C program analyzes a block of text and determines its U.S. grade level usin
   - `grade 16+`
 
 
+### 8. 08-Caesar Cipher — C Implementation
 
+This program implements Caesar’s Cipher, an ancient encryption technique that shifts each letter in the plaintext by a user-specified key.
 
+---
+
+## Features
+
+- Accepts a non-negative integer key as a command-line argument.
+- Encrypts input plaintext by rotating letters by the key.
+- Preserves case (uppercase stays uppercase, lowercase stays lowercase).
+- Leaves non-alphabetical characters unchanged.
+- Includes a custom function to convert a numeric string to an integer.
+
+---
+
+## How to Compile and Run
+
+Compile with:
+
+```bash
+gcc caesar.c -o caesar -lm
 
 
 
