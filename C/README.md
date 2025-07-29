@@ -75,14 +75,6 @@ This program implements Caesar’s Cipher, an ancient encryption technique that 
 
 ---
 
-## How to Compile and Run
-
-Compile with:
-
-```bash
-gcc caesar.c -o caesar -lm
-
-
 
 
 
@@ -90,3 +82,6 @@ gcc caesar.c -o caesar -lm
 ## 🗓️ Started: July 2025
 
 These programs reflect my step-by-step learning of core C concepts. More to come as I progress through CS50 and beyond!
+
+
+
