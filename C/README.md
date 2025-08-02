@@ -76,7 +76,20 @@ This program implements Caesar’s Cipher, an ancient encryption technique that 
 ---
 
 
+### 9. 09Substitution Cipher
 
+This program implements a **substitution cipher**, a simple method of encryption that replaces each letter in the plaintext with a corresponding letter from a provided key.
+
+## 🔐 How it works
+
+The program:
+- Accepts a **26-character key** as a command-line argument (case-insensitive).
+- Prompts the user to enter a **plaintext** message.
+- Outputs the **ciphertext** after applying the substitution cipher based on the key.
+- Preserves the **case** of each letter.
+- Leaves non-alphabetical characters **unchanged**.
+
+---
 
 
 ## 🗓️ Started: July 2025
